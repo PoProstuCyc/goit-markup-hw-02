@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-.links:hover {
+<<<<<<< Updated upstream .links:hover {
   color: green;
   background-color: yellow;
 }
@@ -14,20 +13,3 @@
 button {
   cursor: pointer;
 }
-=======
-.links:hover {
-  color: green;
-  background-color: yellow;
-}
-.mail:hover {
-  color: green;
-  background-color: yellow;
-}
-.telephone:hover {
-  color: green;
-  background-color: yellow;
-}
-button {
-  cursor: pointer;
-}
->>>>>>> Stashed changes
