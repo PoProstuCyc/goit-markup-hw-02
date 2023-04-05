@@ -1,4 +1,4 @@
-.links:focus {
+.links:hover {
   color: green;
   background-color: yellow;
 }
