@@ -1,3 +1,6 @@
+body {
+  font-family: Roboto;
+}
 .links {
   font-weight: 500;
   font-size: 14;
@@ -5,7 +8,6 @@
   text-decoration: none;
   color: #212121;
 }
-
 .links:hover {
   color: green;
   background-color: yellow;
@@ -72,7 +74,32 @@ h1 {
   line-height: 1.5;
 }
 .our_atuts_heder {
+  color: #212121;
   font-weight: 700;
   font-size: 14;
   line-height: 1.5;
+}
+.our_atuts_text_one {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14;
+  line-height: 1.5;
+}
+.second_header {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36;
+  line-height: 1.5;
+}
+.name {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.profession {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
