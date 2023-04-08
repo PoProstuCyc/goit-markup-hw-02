@@ -1,15 +1,78 @@
+.links {
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #212121;
+}
+
 .links:hover {
   color: green;
   background-color: yellow;
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.mail {
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.5;
 }
 .mail:hover {
   color: green;
   background-color: yellow;
+  text-decoration: none;
+}
+.telephone {
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.5;
+  color: #757575;
 }
 .telephone:hover {
   color: green;
   background-color: yellow;
+  text-decoration: none;
 }
 button {
   cursor: pointer;
+}
+.logo {
+  font-weight: 700;
+  font-size: 26;
+  line-height: 1.5;
+  color: #000000;
+  text-decoration: none;
+}
+:root {
+  --second_color: #2196f3;
+}
+:root {
+  --main_color: #000000;
+}
+.second-color {
+  color: var(--second_color);
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-weight: 900;
+  font-size: 44;
+  line-height: 1.5;
+  color: #ffffff;
+  background: #2f303a;
+}
+.button {
+  color: #ffffff;
+  background-color: var(--second_color);
+  font-weight: 700;
+  font-size: 16;
+  line-height: 1.5;
+}
+.our_atuts_heder {
+  font-weight: 700;
+  font-size: 14;
+  line-height: 1.5;
 }
