@@ -1,9 +1,6 @@
 body {
   font-family: Roboto;
 }
-header {
-  background: #ffffff;
-}
 footer {
   background-color: #2f303a;
 }
@@ -137,4 +134,10 @@ h1 {
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 1);
+}
+.our_team {
+  background-color: rgba(245, 244, 250, 1);
+}
+.header.our_atuts.what_we_do.header {
+  background: #ffffff;
 }
