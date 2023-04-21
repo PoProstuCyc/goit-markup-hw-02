@@ -1,6 +1,9 @@
 body {
   font-family: Roboto;
 }
+header {
+  background: #ffffff;
+}
 footer {
   background-color: #2f303a;
 }
