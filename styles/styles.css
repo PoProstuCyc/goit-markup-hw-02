@@ -99,6 +99,7 @@ h1 {
   font-weight: 700;
   font-size: 16;
   line-height: 1.5;
+  border: none;
 }
 .our_atuts_heder {
   color: #212121;
@@ -141,4 +142,17 @@ h1 {
 }
 .header.our_atuts.what_we_do.header {
   background: #ffffff;
+}
+.buttion_portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(33, 33, 33, 1);
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+}
+.buttion_portfolio:hover {
+  color: rgba(255, 255, 255, 1);
+  background: rgba(33, 150, 243, 1);
 }
