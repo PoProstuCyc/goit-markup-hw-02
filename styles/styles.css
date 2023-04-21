@@ -8,6 +8,10 @@ body {
   text-decoration: none;
   color: #212121;
 }
+.cursor {
+  cursor: pointer;
+}
+
 .links:hover {
   color: green;
   background-color: yellow;
