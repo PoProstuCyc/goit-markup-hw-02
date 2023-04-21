@@ -37,6 +37,9 @@ body {
   background-color: yellow;
   text-decoration: none;
 }
+.cursor {
+  cursor: pointer;
+}
 button {
   cursor: pointer;
 }
