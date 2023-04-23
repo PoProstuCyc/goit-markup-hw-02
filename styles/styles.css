@@ -1,129 +1,224 @@
-body {
-  font-family: Roboto;
-  width: 1600;
-}
-footer {
-  background-color: #2f303a;
-}
-.links {
-  font-weight: 500;
-  font-size: 14;
-  line-height: 1.5;
-  text-decoration: none;
-  color: #212121;
-}
-.cursor {
-  cursor: pointer;
-}
-.links:hover {
-  color: rgba(33, 150, 243, 1);
-  font-weight: 500;
-  font-size: 14;
-  line-height: 1.5;
-  text-decoration: none;
-}
-.mail_header:hover {
-  color: rgba(33, 150, 243, 1);
-  text-decoration: none;
-}
-.mail_footer:hover {
-  text-decoration: none;
-}
-.mail_header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #757575;
-}
-.mail_footer {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: rgba(255, 255, 255, 0.6);
-}
-.telephone_header {
-  font-weight: 500;
-  font-size: 14;
-  line-height: 1.5;
-  color: #757575;
-}
-.telephone_footer {
-  font-weight: 500;
-  font-size: 14;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.6);
-}
-.telephone_header:hover {
-  color: rgba(33, 150, 243, 1);
-  text-decoration: none;
-}
-button {
-  cursor: pointer;
-}
-.logo_header {
-  font-weight: 700;
-  font-size: 26;
-  line-height: 1.5;
-  color: #000000;
-  text-decoration: none;
-}
-.logo_footer {
-  font-weight: 700;
-  font-size: 26;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 1);
-  text-decoration: none;
-}
 :root {
-  --second_color: #2196f3;
-}
-:root {
-  --main_color: #000000;
-}
-.second-color {
-  color: var(--second_color);
+  --second_color_logo: rgba(33, 150, 243, 1);
+  --background_color_footer: rgba(47, 48, 58, 1);
+  --focus_hover_color: rgba(33, 150, 243, 1);
+  --main_color: rgba(0, 0, 0, 1);
+  --color_navigate: rgba(33, 33, 33, 1);
+  --second_color: rgba(255, 255, 255, 1);
+  --mail_and_links_header_color: rgba(117, 117, 117, 1);
+  --mail_and_links_footer_color: rgba(255, 255, 255, 0.6);
+  --our_atuts_color: rgba(255, 255, 255, 1);
+  --our_atuts_text_color: rgba(117, 117, 117, 1);
+  --header_color: rgba(33, 33, 33, 1);
+  --our_team_background_color: rgba(245, 244, 250, 1);
+  --name_colour: rgba(33, 33, 33, 1);
+  --staff_background_color: rgba(255, 255, 255, 1);
+  --profession_color: rgba(117, 117, 117, 1);
+  --color_buttions_portfolio: rgba(33, 33, 33, 1);
+  --background_color_buttons_portfolio: rgba(245, 244, 250, 1);
+  --background_color_items_portfolio: rgba(238, 238, 238, 1);
+  --background_portfolio: rgba(255, 255, 255, 1);
+  --color_item_portfolio: rgba(33, 33, 33, 1);
+  --color_type_item_portfolio: rgba(117, 117, 117, 1);
 }
 a {
   text-decoration: none;
 }
-h1 {
-  font-weight: 900;
-  font-size: 44;
-  line-height: 1.5;
-  color: #ffffff;
-  background: #2f303a;
+.cursor {
+  cursor: pointer;
 }
-.button {
-  color: #ffffff;
-  background-color: var(--second_color);
+.menu {
+  width: 1600px;
+  height: 80px;
+}
+.logo_header {
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
-  font-size: 16;
-  line-height: 1.5;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--main_color);
+  text-decoration: none;
+}
+.second-color {
+  color: var(--second_color_logo);
+}
+.navigate {
+  color: var(--color_navigate);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.mail_header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--mail_and_links_header_color);
+}
+.telephone_header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--mail_and_links_header_color);
+}
+.links {
+  text-decoration: none;
+  color: var(--main_color);
   border: none;
 }
-.our_atuts_heder {
-  color: #212121;
-  font-weight: 700;
-  font-size: 14;
-  line-height: 1.5;
+.links:hover {
+  color: var(--focus_hover_color);
 }
-.our_atuts_text_one {
-  color: #757575;
+.links:focus {
+  color: var(--focus_hover_color);
+}
+
+.mail_header:hover {
+  color: var(--focus_hover_color);
+}
+
+.mail_header:focus {
+  color: var(--focus_hover_color);
+}
+
+.mail_footer:hover {
+  color: var(--focus_hover_color);
+}
+
+.mail_footer:focus {
+  color: var(--focus_hover_color);
+}
+
+.telephone_header:hover {
+  color: var(--focus_hover_color);
+}
+
+.telephone_header:focus {
+  color: var(--focus_hover_color);
+}
+
+.telephone_footer:hover {
+  color: var(--focus_hover_color);
+}
+
+.telephone_footer:focus {
+  color: var(--focus_hover_color);
+}
+.logo_footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--second_color);
+  text-decoration: none;
+}
+.address_footer {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
-  font-size: 14;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--second_color);
 }
-.second_header {
-  color: #212121;
+.mail_footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--mail_and_links_footer_color);
+}
+
+.telephone_footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--mail_and_links_footer_color);
+}
+.footer {
+  background-color: var(--background_color_footer);
+  width: 1600px;
+}
+.order_service {
+  background-color: var(--background_color_footer);
+  width: 1600px;
+  height: 600px;
+}
+.main_text_index {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--second_color);
+}
+.button_index {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
-  font-size: 36;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--second_color);
+  background-color: var(--second_color_logo);
+  cursor: pointer;
+  border: none;
+}
+.our_atuts {
+  background-color: var(--our_atuts_color);
+  width: 1600px;
+}
+.our_atuts_heder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main_color);
+}
+.our_atuts_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--mail_and_links_header_color);
+}
+.what_we_do_header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--header_color);
+}
+.our_team {
+  background-color: var(--our_team_background_color);
+  width: 1600px;
+}
+.our_team_header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--header_color);
 }
 .name {
-  color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 19px;
+  color: var(--name_colour);
 }
 .profession {
   color: #757575;
@@ -131,28 +226,116 @@ h1 {
   font-size: 16px;
   line-height: 19px;
 }
-.address_footer {
+.teammates_1 {
+  background-color: var(--staff_background_color);
+  width: 270px;
+  height: 368px;
+}
+.teammates_2 {
+  background-color: var(--staff_background_color);
+  width: 270px;
+  height: 368px;
+}
+.teammates_3 {
+  background-color: var(--staff_background_color);
+  width: 270px;
+  height: 368px;
+}
+.teammates_4 {
+  background-color: var(--staff_background_color);
+  width: 270px;
+  height: 368px;
+}
+.profession {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: rgba(255, 255, 255, 1);
-}
-.our_team {
-  background-color: rgba(245, 244, 250, 1);
-}
-.header.our_atuts.what_we_do.header {
-  background: #ffffff;
-}
-.buttion_portfolio {
-  font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  color: rgba(33, 33, 33, 1);
-  background: #f5f4fa;
-  border-radius: 4px;
+  line-height: 19px;
+  color: var(--profession_color);
   border: none;
 }
 .buttion_portfolio:hover {
-  color: rgba(255, 255, 255, 1);
-  background: rgba(33, 150, 243, 1);
+  background-color: var(--focus_hover_color);
+  border: none;
+}
+.buttion_portfolio:focus {
+  background-color: var(--focus_hover_color);
+  border: none;
+}
+.background_portfolio {
+  background-color: var(--background_portfolio);
+  border: none;
+}
+.buttion_portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color_buttions_portfolio);
+  background-color: var(--background_color_buttons_portfolio);
+  border-radius: 4px;
+  border: none;
+}
+.project_1 {
+  width: 370px;
+  height: 404px;
+  background-color: var(--background_color_items_portfolio);
+}
+.project_2 {
+  width: 370px;
+  height: 404px;
+  background-color: var(--background_color_items_portfolio);
+}
+.project_3 {
+  width: 370px;
+  height: 404px;
+  background-color: var(--background_color_items_portfolio);
+}
+.project_4 {
+  width: 370px;
+  height: 404px;
+  background-color: var(--background_color_items_portfolio);
+}
+.project_5 {
+  width: 370px;
+  height: 404px;
+  background-color: var(--background_color_items_portfolio);
+}
+.project_6 {
+  width: 370px;
+  height: 404px;
+  background-color: var(--background_color_items_portfolio);
+}
+.project_7 {
+  width: 370px;
+  height: 404px;
+  background-color: var(--background_color_items_portfolio);
+}
+.project_8 {
+  width: 370px;
+  height: 404px;
+  background-color: var(--background_color_items_portfolio);
+}
+.project_9 {
+  width: 370px;
+  height: 404px;
+  background-color: var(--background_color_items_portfolio);
+}
+.name_item_portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--color_item_portfolio);
+}
+.type_item_portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color_type_item_portfolio);
 }
