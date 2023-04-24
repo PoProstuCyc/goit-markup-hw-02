@@ -21,6 +21,9 @@
   --color_item_portfolio: rgba(33, 33, 33, 1);
   --color_type_item_portfolio: rgba(117, 117, 117, 1);
 }
+body {
+  font-family: Roboto, sans-serif;
+}
 a {
   text-decoration: none;
 }
@@ -257,10 +260,12 @@ a {
 }
 .buttion_portfolio:hover {
   background-color: var(--focus_hover_color);
+  color: var(--second_color);
   border: none;
 }
 .buttion_portfolio:focus {
   background-color: var(--focus_hover_color);
+  color: var(--second_color);
   border: none;
 }
 .background_portfolio {
@@ -324,7 +329,6 @@ a {
   background-color: var(--background_color_items_portfolio);
 }
 .name_item_portfolio {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -332,7 +336,6 @@ a {
   color: var(--color_item_portfolio);
 }
 .type_item_portfolio {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
